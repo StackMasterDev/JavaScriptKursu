@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listeler</title>
+</head>
+<body>
+    
+  
+
+    <ul id="list">
+
+    </ul>
+ 
+
+    <script>
+        var kategoriler=["Ev Eşyaları","Elektronik","Giyim","Bahçe","X kategorisi","Y kategorisi"];
+
+        var categoryList=document.getElementById('list');
+
+        for(let category of kategoriler){
+            let li=document.createElement('li');
+            li.textContent=category;
+            categoryList.appendChild(li);
+        }
+
+    </script>
+</body>
+</html>
