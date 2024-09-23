@@ -1,0 +1,24 @@
+react -->spa
+single page application
+
+index.html
+
+component yapısı
+
+render
+
+- başlık
+- kategoriler
+- ürün listesi
+- ürün detayı
+
+componentler js dosyasıdır
+react --> client side 
+nextjs nedir --> server side  
+
+
+uı--> api -->db
+
+db-->api -->uı 
+
+
